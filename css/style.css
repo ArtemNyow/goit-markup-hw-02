@@ -67,6 +67,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
 }
 
 .header-addr-item:hover,
@@ -139,20 +140,25 @@ button {
 
 /* #endregion Content */
 /* #region Team */
-.team {}
+.team {
+    background-color: #f4f4fd;
+    ;
+}
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
 
-
+    text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-list-item {}
 
@@ -186,6 +192,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -219,7 +226,7 @@ button {
     font-weight: 700;
     font-size: 18px;
 
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
