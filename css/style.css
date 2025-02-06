@@ -30,7 +30,7 @@ button {
     font-weight: 700;
     font-size: 18px;
 
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -58,6 +58,10 @@ button {
 .item-nav-link:hover,
 .item-nav-link:focus {
     color: #404bbf;
+}
+
+.header-addr {
+    font-style: normal
 }
 
 .header-addr-item {
@@ -156,11 +160,11 @@ button {
     color: #2e2f42;
 }
 
-.team-list {
+.team-list {}
+
+.team-list-item {
     background-color: #FFFFFF
 }
-
-.team-list-item {}
 
 .team-item-title {
     font-weight: 500;
